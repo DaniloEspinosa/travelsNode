@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h2 {
+    margin: 0.5rem 0;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    color: steelblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+p {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: steelblue;
+    height: 4rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+a:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 20px;
+}

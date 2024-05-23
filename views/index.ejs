@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Este es el head creado en templates -->
+<%- include('templates/head') %>
+
+<body>
+    <header>
+        
+            <h1>Danilo's travels</h1>
+            <!-- Esta es la navbar creada en templates -->
+            <%- include('templates/menu') %>
+            <h2>
+                <%= subtitulo %>
+            </h2>
+            <p>
+                <%= descripcion %>
+            </p>
+            <p>
+                <%= precio %>
+            </p>
+            <img src=<%=imagen %> alt=<%= descripcion %> />
+
+    </header>
+    <%- include('templates/footer') %>
+
+</body>
+
+</html>
